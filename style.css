@@ -1,8 +1,14 @@
 /*INDEX */
-*{font-family: 'Noto Sans TC', sans-serif;}
+*{
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 body {
     height: 200vh;
     margin: 0;
+    padding: 0;
+    overflow:hidden;
 }
 header {
     background-color: burlywood;
@@ -17,17 +23,35 @@ nav > ul > li {
     height: 100vh;
     width: 100vw;
     position: fixed;
-    z-index: 10000000;
+    z-index: 10000000000;
     color: white;
+
+}
+.mobile > div {
+    margin: 30vh 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+.mobile > div > h1 {
+    font-size: 5vh;
+}
+.mobile-icon {
+    right: 0;
+    left: 0;
+    display: inline;
+    margin: 4vh;
 }
 
 /*INDEX*/
 
 @media only screen and (min-width: 1280px) {
+.mobile {
+    display: none;
+}
 header {
     position: fixed;
     width: 100vw;
-
 }
 nav {
     
@@ -36,12 +60,15 @@ nav > * {
     padding: 0;
     margin: 0;
     display: inline-table;
+    padding: 1vh 0;
 }
 .header-nav-h2 {
-    margin: 2vw 2vh;
+    margin: 2vh 2vw;
+    font-size: 1.5em;
 }
 .header-nav-ul {
-    margin: 1em 4em;
+    margin: 1em 2em;
+    right: 0;
 }
 .header-nav-ul > li {
     margin: 0 0.2em;
