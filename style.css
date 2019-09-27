@@ -45,6 +45,7 @@ nav {
 }
 .navbar {
     padding: 2vh 4vw;
+    background-color: #606060;
 }
 /* nav > ul > li {
     list-style: none;
