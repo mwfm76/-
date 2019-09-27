@@ -34,6 +34,10 @@ nav {
 .carousel-item {
     height: 75vh;
 }
+.navbar {
+    padding: 2vh 4vw;
+    background-color: #5f5651!;
+}
 .carousel-item > .c1 {
     background-image: url(https://store-images.s-microsoft.com/image/apps.41722.68331807765411716.aa4ceb76-e992-46a5-83ba-5a5c948cd534.f178157a-83b2-49f2-acee-a20721cca8a5?mode=scale&q=90&h=1080&w=1920&format=jpg)
 }
@@ -43,9 +47,12 @@ nav {
 .carousel-item > .c3 {
     background-image: url(https://lh3.googleusercontent.com/miomyqCKqhb8wSnO665JoDXlQjrOf9X0cT8NCVMWQ_GMlmoYF-v_7IK1h3ImGKnQm8svZq9y4l4GCzBMxAuE3l3fA6H1FccYSIQ2866K3dhVItuV6PvqKRiIDzIrlo1hdov9aUDUhHVzQO6P2ckutWDV-wdtW8GdUDN6xcxtz5uTzrRphIBFRH-JFwpGsaq1Y25EGI6R2SLaS6TswI4lSfb2qbWhDccMPXmqvp_ccXNgdhpt0N5r6JwlzbLGmsl0K0eAV6SHx_gZh0HNAseS24Lgxnq8wTnd0k_CAPSKfsyK2OSGf8afx0q19kb1J9NMgiN9IbqZHd_tHAJtJhQ2MU8DbCAWzfcsoyfRjhQySnqDL3AZ5ZLZAkBo2Nq15s0xfBo-Cl5VaKhmjHB3uLj7qQk6IwY45ZibWgtipZEbu83RRK6xiHjmXhs468pJsHSb0mFS4KnsKV61sAQyFKMMVfz3n0cD0samiDIQ2ASio_mdlK29ybvNk15QL7GMs_hDhvHydWHWRZuIJRhbKJpP-HILeXvNo9GIT_7B4_-wGER0st2NOaGypO-8yaOhY3SkNT80Q1Ep7jQ_tHqJ3fk3kbCIvx78hDyMqKWOCVF2kvLLyiDhUVMfjmriMqSPdvDY6m8SZZbuvXvjG92gAd_4tOZyvAntQVaT1KqRUu1GPdLcAMgMu9lu7ic=w1920-h800-no)
 }
-.navbar {
-    padding: 2vh 4vw;
-    background-color: #606060;
+.card-img-1 {
+    padding: 5em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1556910633-5099dc3971e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1225&q=80);
 }
 /* nav > ul > li {
     list-style: none;
